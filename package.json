@@ -1,0 +1,24 @@
+{
+  "name": "my-redux",
+  "version": "1.0.0",
+  "description": "\"Redux\" by watching and imitating.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "browserify --debug ./src/index.js > dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tee-talog/my-redux.git"
+  },
+  "keywords": [],
+  "author": "tee-talog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tee-talog/my-redux/issues"
+  },
+  "homepage": "https://github.com/tee-talog/my-redux#readme",
+  "devDependencies": {
+    "browserify": "^14.5.0"
+  },
+  "private": true
+}
