@@ -21,3 +21,5 @@ pids
 .env
 
 !.gitkeep
+dist/*
+

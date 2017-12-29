@@ -18,7 +18,7 @@ const { increment, decrement, textChange } = ActionCreator(store);
 const numElement = document.getElementById("num");
 store.connect(
 	numElement,
-	(state) => `${state.num}回`
+	(state) => `${state.num} times`
 );
 
 const incrementElement = document.getElementById("increment");
